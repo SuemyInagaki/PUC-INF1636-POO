@@ -14,7 +14,7 @@ import Interfaces.ObservadorIF;
 
 class Jogo{
 	private int numJogadores;
-	private Boolean naoTerminou;
+	private Boolean naoTerminou = false;
 	private List<Integer> vetorCartas;
 	private int[] pontuacao = null;
 	private int vencedor;
